@@ -7,4 +7,4 @@ with the help of [Raphael](http://raphaeljs.com/) SVG js library
 Demo
 =======
 Download this repository as zip or clone it using 
-`git clone https://github.com/vidhu/jsMathD`. Then view the index.html file in your browser
+`git clone https://github.com/vidhu/jsMathD`. Then view the `index.html` file in your browser
