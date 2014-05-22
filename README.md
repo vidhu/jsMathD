@@ -11,4 +11,18 @@ Download this repository as zip or clone it using
 
 Documentation
 =======
-
+###Relations
+Relation diagrams can be generated using `JSMathD.Relation(data, options)`
+######Example
+```javascript
+JSMathD.relation({
+    set1: [1, 2, 3, 4],                  //Elements in set 1
+    set2: ['D', 'B', 'C', 'A'],          //Elements in set 2
+    rel: [[1, 'D'], [2, 'B'], [2, 'C']]  //Relations between set1 and set 2
+},
+{
+    holder: 'relationExample',           //Container id where relation diagram
+                                         //will be drawn
+    fontSize: 50                         //Font size (scales the diagram)
+}); 
+```
