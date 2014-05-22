@@ -5,9 +5,33 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js" type="text/javascript"></script>
-        <script src="test.js" type="text/javascript"></script>
+        <script src="JSMathD.js" type="text/javascript"></script>
+        <style type="text/css">
+            body{
+                margin:0;
+                padding:0;
+            }
+            #holder{
+                background-color: khaki;
+                width: 200px;
+                height: 200px;
+                position: relative;
+                top: 100px;
+                left: 100px;
+            }
+        </style>
         <script type="text/javascript">
-            
+            window.onload = function() {
+                JSMathD.relation({
+                    set1: [1, 2, 3, 4, 5, 6],
+                    set2: ['A', 'B', 'C', 'D'],
+                    rel: [[1, 'D'], [2, 'B'], [2, 'C']]
+                },
+                {
+                    holder: 'holder',
+                    fontSize: 15
+                });
+            }
         </script>
     </head>
     <body>
