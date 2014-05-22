@@ -13,7 +13,6 @@ Documentation
 =======
 ###Relations
 Relation diagrams can be generated using `JSMathD.Relation(data, options)`
-######Example
 ```javascript
 JSMathD.relation({
     set1: [1, 2, 3, 4],                  //Elements in set 1
