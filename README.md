@@ -25,3 +25,19 @@ JSMathD.relation({
     fontSize: 50                         //Font size (scales the diagram)
 }); 
 ```
+
+###Equivalence
+Equivalence diagrams can be generated using `JSMathD.equivalence(data, options)`
+```javascript
+JSMathD.equivalence(
+    {
+        'Z/5Z' : [[0, 5, 10], [1, 2, 3, 4, 5], [2, 7, 12], [3, 8, 13], 2, 3, 4]
+        //Equivalence set and its name
+    },
+    {
+        holder: 'equivalenceExample',     //Container id where relation diagram
+        width: 200,                       //Width of the container
+        height: 205                       //height of the container
+    }
+); 
+```
