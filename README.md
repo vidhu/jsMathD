@@ -31,7 +31,7 @@ Equivalence diagrams can be generated using `JSMathD.equivalence(data, options)`
 ```javascript
 JSMathD.equivalence(
     {
-        'Z/5Z' : [[0, 5, 10], [1, 6, 11], [2, 7, 12], [3, 8, 13], [4, 9, 14]]
+        'Equiv Class' : [[0, 5, 10], [1, 2, 3, 4, 5], [2, 7, 12], [3, 8, 13], 2, 3, 4]
         //Equivalence set and its name
     },
     {
