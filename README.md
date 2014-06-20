@@ -25,7 +25,7 @@ JSMathD.relation({
     fontSize: 50                         //Font size (scales the diagram)
 }); 
 ```
-
+=======
 ###Equivalence
 Equivalence diagrams can be generated using `JSMathD.equivalence(data, options)`
 ```javascript
